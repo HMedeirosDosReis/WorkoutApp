@@ -3,9 +3,10 @@
 from user import * 
 
 def main():
-    print("Hello World!")
     testUser = user("Prof1", "HM", "1011","henr", "med", "workA", "workB", "gain")
-    print(testUser)#define what print means
+    testUser.sp_print()
+
+
 if __name__ == "__main__":
     main()
     #gabiGata
